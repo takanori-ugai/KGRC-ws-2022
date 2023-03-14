@@ -44,7 +44,7 @@ def printSentence(filepath, df):
                         print("and ", end="")
                     if (gr[4] is not None):
                         print("the " + gr[4], end=" and ")
-        print("done.")
+        print("done. : " + lines[0])
 
 with open('KGRC-ws-2022/notebooks/replace.json') as f:
     df = json.load(f)
